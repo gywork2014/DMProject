@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="StudentEntityMap">
+	<resultMap type="com.duomei.bases.entity.StudentEntity" id="UserInfoResultMap">
+		<id property="student_id" column="student_id" />
+		<result property="student_name" column="student_name" />
+		<result property="student_sex" column="student_sex" />
+		<result property="student_birthday" column="student_birthday" />
+		<result property="class_id" column="class_id" />
+	</resultMap>
+</mapper>
